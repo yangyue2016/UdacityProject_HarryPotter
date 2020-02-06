@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C191F3723E2E698009337A1 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C191F3623E2E698009337A1 /* Character.swift */; };
+		6C191F3C23E5C496009337A1 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C191F3B23E5C496009337A1 /* Member.swift */; };
+		6C46DA0923E9DB1300F14BA9 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C46DA0823E9DB1300F14BA9 /* Alerts.swift */; };
+		6C46DA1423E9FCE300F14BA9 /* HarryPotterDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C46DA1223E9FCE300F14BA9 /* HarryPotterDB.xcdatamodeld */; };
+		6C6FDB5523E7709400AA7AB6 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6FDB5423E7709400AA7AB6 /* CharacterViewController.swift */; };
+		6C6FDB5723E8BFCB00AA7AB6 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6FDB5623E8BFCB00AA7AB6 /* CollectionViewController.swift */; };
+		6C6FDB5B23E8C54400AA7AB6 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6FDB5A23E8C54400AA7AB6 /* CollectionCell.swift */; };
+		6CDC27CA23DF2A7F00DDC02E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDC27C923DF2A7F00DDC02E /* AppDelegate.swift */; };
+		6CDC27CF23DF2A7F00DDC02E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CDC27CD23DF2A7F00DDC02E /* Main.storyboard */; };
+		6CDC27D123DF2A8200DDC02E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CDC27D023DF2A8200DDC02E /* Assets.xcassets */; };
+		6CDC27D423DF2A8200DDC02E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CDC27D223DF2A8200DDC02E /* LaunchScreen.storyboard */; };
+		6CDC27DF23DF2A8200DDC02E /* HarryPotter_Yue_YangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDC27DE23DF2A8200DDC02E /* HarryPotter_Yue_YangTests.swift */; };
+		6CDC27EA23DF2A8200DDC02E /* HarryPotter_Yue_YangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDC27E923DF2A8200DDC02E /* HarryPotter_Yue_YangUITests.swift */; };
+		6CDC27FE23DF2B9900DDC02E /* PotterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDC27FD23DF2B9900DDC02E /* PotterAPI.swift */; };
+		6CDC280223DF2BA400DDC02E /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDC27FF23DF2BA400DDC02E /* CoreDataStack.swift */; };
+		6CDC280523DF344400DDC02E /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDC280423DF344400DDC02E /* DataProvider.swift */; };
+		6CDC280723DF864800DDC02E /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDC280623DF864800DDC02E /* House.swift */; };
+		6CDC281023E2392000DDC02E /* HouseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDC280F23E2392000DDC02E /* HouseDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CDC27DB23DF2A8200DDC02E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CDC27BE23DF2A7E00DDC02E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CDC27C523DF2A7E00DDC02E;
+			remoteInfo = "HarryPotter_Yue Yang";
+		};
+		6CDC27E623DF2A8200DDC02E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CDC27BE23DF2A7E00DDC02E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CDC27C523DF2A7E00DDC02E;
+			remoteInfo = "HarryPotter_Yue Yang";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C191F3623E2E698009337A1 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		6C191F3B23E5C496009337A1 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		6C46DA0823E9DB1300F14BA9 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		6C46DA1323E9FCE300F14BA9 /* HarryPotterDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HarryPotterDB.xcdatamodel; sourceTree = "<group>"; };
+		6C6FDB5423E7709400AA7AB6 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
+		6C6FDB5623E8BFCB00AA7AB6 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		6C6FDB5A23E8C54400AA7AB6 /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		6CDC27C623DF2A7F00DDC02E /* HarryPotter_Yue Yang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HarryPotter_Yue Yang.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDC27C923DF2A7F00DDC02E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CDC27CE23DF2A7F00DDC02E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CDC27D023DF2A8200DDC02E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CDC27D323DF2A8200DDC02E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CDC27D523DF2A8200DDC02E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CDC27DA23DF2A8200DDC02E /* HarryPotter_Yue YangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HarryPotter_Yue YangTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDC27DE23DF2A8200DDC02E /* HarryPotter_Yue_YangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotter_Yue_YangTests.swift; sourceTree = "<group>"; };
+		6CDC27E023DF2A8200DDC02E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CDC27E523DF2A8200DDC02E /* HarryPotter_Yue YangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HarryPotter_Yue YangUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDC27E923DF2A8200DDC02E /* HarryPotter_Yue_YangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotter_Yue_YangUITests.swift; sourceTree = "<group>"; };
+		6CDC27EB23DF2A8200DDC02E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CDC27FD23DF2B9900DDC02E /* PotterAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PotterAPI.swift; sourceTree = "<group>"; };
+		6CDC27FF23DF2BA400DDC02E /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		6CDC280423DF344400DDC02E /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		6CDC280623DF864800DDC02E /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		6CDC280F23E2392000DDC02E /* HouseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CDC27C323DF2A7E00DDC02E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CDC27D723DF2A8200DDC02E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CDC27E223DF2A8200DDC02E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CDC27BD23DF2A7E00DDC02E = {
+			isa = PBXGroup;
+			children = (
+				6CDC27C823DF2A7F00DDC02E /* HarryPotter_Yue Yang */,
+				6CDC27DD23DF2A8200DDC02E /* HarryPotter_Yue YangTests */,
+				6CDC27E823DF2A8200DDC02E /* HarryPotter_Yue YangUITests */,
+				6CDC27C723DF2A7F00DDC02E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CDC27C723DF2A7F00DDC02E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CDC27C623DF2A7F00DDC02E /* HarryPotter_Yue Yang.app */,
+				6CDC27DA23DF2A8200DDC02E /* HarryPotter_Yue YangTests.xctest */,
+				6CDC27E523DF2A8200DDC02E /* HarryPotter_Yue YangUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CDC27C823DF2A7F00DDC02E /* HarryPotter_Yue Yang */ = {
+			isa = PBXGroup;
+			children = (
+				6CDC27C923DF2A7F00DDC02E /* AppDelegate.swift */,
+				6CDC27FA23DF2AD600DDC02E /* API */,
+				6CDC27F923DF2AC700DDC02E /* LocalDatabase */,
+				6CDC27F823DF2AAF00DDC02E /* ViewController */,
+				6CDC27F723DF2A9000DDC02E /* Assets */,
+				6CDC27D523DF2A8200DDC02E /* Info.plist */,
+			);
+			path = "HarryPotter_Yue Yang";
+			sourceTree = "<group>";
+		};
+		6CDC27DD23DF2A8200DDC02E /* HarryPotter_Yue YangTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CDC27DE23DF2A8200DDC02E /* HarryPotter_Yue_YangTests.swift */,
+				6CDC27E023DF2A8200DDC02E /* Info.plist */,
+			);
+			path = "HarryPotter_Yue YangTests";
+			sourceTree = "<group>";
+		};
+		6CDC27E823DF2A8200DDC02E /* HarryPotter_Yue YangUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CDC27E923DF2A8200DDC02E /* HarryPotter_Yue_YangUITests.swift */,
+				6CDC27EB23DF2A8200DDC02E /* Info.plist */,
+			);
+			path = "HarryPotter_Yue YangUITests";
+			sourceTree = "<group>";
+		};
+		6CDC27F723DF2A9000DDC02E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6CDC27CD23DF2A7F00DDC02E /* Main.storyboard */,
+				6CDC27D023DF2A8200DDC02E /* Assets.xcassets */,
+				6CDC27D223DF2A8200DDC02E /* LaunchScreen.storyboard */,
+				6C46DA0823E9DB1300F14BA9 /* Alerts.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6CDC27F823DF2AAF00DDC02E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6C6FDB5623E8BFCB00AA7AB6 /* CollectionViewController.swift */,
+				6CDC280F23E2392000DDC02E /* HouseDetailViewController.swift */,
+				6C6FDB5423E7709400AA7AB6 /* CharacterViewController.swift */,
+				6C6FDB5A23E8C54400AA7AB6 /* CollectionCell.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6CDC27F923DF2AC700DDC02E /* LocalDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				6CDC27FF23DF2BA400DDC02E /* CoreDataStack.swift */,
+				6CDC280423DF344400DDC02E /* DataProvider.swift */,
+				6CDC280623DF864800DDC02E /* House.swift */,
+				6C191F3B23E5C496009337A1 /* Member.swift */,
+				6C191F3623E2E698009337A1 /* Character.swift */,
+				6C46DA1223E9FCE300F14BA9 /* HarryPotterDB.xcdatamodeld */,
+			);
+			path = LocalDatabase;
+			sourceTree = "<group>";
+		};
+		6CDC27FA23DF2AD600DDC02E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6CDC27FD23DF2B9900DDC02E /* PotterAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CDC27C523DF2A7E00DDC02E /* HarryPotter_Yue Yang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CDC27EE23DF2A8200DDC02E /* Build configuration list for PBXNativeTarget "HarryPotter_Yue Yang" */;
+			buildPhases = (
+				6CDC27C223DF2A7E00DDC02E /* Sources */,
+				6CDC27C323DF2A7E00DDC02E /* Frameworks */,
+				6CDC27C423DF2A7E00DDC02E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HarryPotter_Yue Yang";
+			productName = "HarryPotter_Yue Yang";
+			productReference = 6CDC27C623DF2A7F00DDC02E /* HarryPotter_Yue Yang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CDC27D923DF2A8200DDC02E /* HarryPotter_Yue YangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CDC27F123DF2A8200DDC02E /* Build configuration list for PBXNativeTarget "HarryPotter_Yue YangTests" */;
+			buildPhases = (
+				6CDC27D623DF2A8200DDC02E /* Sources */,
+				6CDC27D723DF2A8200DDC02E /* Frameworks */,
+				6CDC27D823DF2A8200DDC02E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CDC27DC23DF2A8200DDC02E /* PBXTargetDependency */,
+			);
+			name = "HarryPotter_Yue YangTests";
+			productName = "HarryPotter_Yue YangTests";
+			productReference = 6CDC27DA23DF2A8200DDC02E /* HarryPotter_Yue YangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CDC27E423DF2A8200DDC02E /* HarryPotter_Yue YangUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CDC27F423DF2A8200DDC02E /* Build configuration list for PBXNativeTarget "HarryPotter_Yue YangUITests" */;
+			buildPhases = (
+				6CDC27E123DF2A8200DDC02E /* Sources */,
+				6CDC27E223DF2A8200DDC02E /* Frameworks */,
+				6CDC27E323DF2A8200DDC02E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CDC27E723DF2A8200DDC02E /* PBXTargetDependency */,
+			);
+			name = "HarryPotter_Yue YangUITests";
+			productName = "HarryPotter_Yue YangUITests";
+			productReference = 6CDC27E523DF2A8200DDC02E /* HarryPotter_Yue YangUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CDC27BE23DF2A7E00DDC02E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Udacity;
+				TargetAttributes = {
+					6CDC27C523DF2A7E00DDC02E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					6CDC27D923DF2A8200DDC02E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6CDC27C523DF2A7E00DDC02E;
+					};
+					6CDC27E423DF2A8200DDC02E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6CDC27C523DF2A7E00DDC02E;
+					};
+				};
+			};
+			buildConfigurationList = 6CDC27C123DF2A7E00DDC02E /* Build configuration list for PBXProject "HarryPotter_Yue Yang" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CDC27BD23DF2A7E00DDC02E;
+			productRefGroup = 6CDC27C723DF2A7F00DDC02E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CDC27C523DF2A7E00DDC02E /* HarryPotter_Yue Yang */,
+				6CDC27D923DF2A8200DDC02E /* HarryPotter_Yue YangTests */,
+				6CDC27E423DF2A8200DDC02E /* HarryPotter_Yue YangUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CDC27C423DF2A7E00DDC02E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CDC27D423DF2A8200DDC02E /* LaunchScreen.storyboard in Resources */,
+				6CDC27D123DF2A8200DDC02E /* Assets.xcassets in Resources */,
+				6CDC27CF23DF2A7F00DDC02E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CDC27D823DF2A8200DDC02E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CDC27E323DF2A8200DDC02E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CDC27C223DF2A7E00DDC02E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6FDB5723E8BFCB00AA7AB6 /* CollectionViewController.swift in Sources */,
+				6C6FDB5523E7709400AA7AB6 /* CharacterViewController.swift in Sources */,
+				6C6FDB5B23E8C54400AA7AB6 /* CollectionCell.swift in Sources */,
+				6C191F3723E2E698009337A1 /* Character.swift in Sources */,
+				6CDC281023E2392000DDC02E /* HouseDetailViewController.swift in Sources */,
+				6C46DA1423E9FCE300F14BA9 /* HarryPotterDB.xcdatamodeld in Sources */,
+				6CDC280723DF864800DDC02E /* House.swift in Sources */,
+				6CDC280523DF344400DDC02E /* DataProvider.swift in Sources */,
+				6CDC27CA23DF2A7F00DDC02E /* AppDelegate.swift in Sources */,
+				6C46DA0923E9DB1300F14BA9 /* Alerts.swift in Sources */,
+				6CDC27FE23DF2B9900DDC02E /* PotterAPI.swift in Sources */,
+				6CDC280223DF2BA400DDC02E /* CoreDataStack.swift in Sources */,
+				6C191F3C23E5C496009337A1 /* Member.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CDC27D623DF2A8200DDC02E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CDC27DF23DF2A8200DDC02E /* HarryPotter_Yue_YangTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CDC27E123DF2A8200DDC02E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CDC27EA23DF2A8200DDC02E /* HarryPotter_Yue_YangUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CDC27DC23DF2A8200DDC02E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CDC27C523DF2A7E00DDC02E /* HarryPotter_Yue Yang */;
+			targetProxy = 6CDC27DB23DF2A8200DDC02E /* PBXContainerItemProxy */;
+		};
+		6CDC27E723DF2A8200DDC02E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CDC27C523DF2A7E00DDC02E /* HarryPotter_Yue Yang */;
+			targetProxy = 6CDC27E623DF2A8200DDC02E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CDC27CD23DF2A7F00DDC02E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CDC27CE23DF2A7F00DDC02E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CDC27D223DF2A8200DDC02E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CDC27D323DF2A8200DDC02E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CDC27EC23DF2A8200DDC02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CDC27ED23DF2A8200DDC02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CDC27EF23DF2A8200DDC02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HarryPotter_Yue Yang/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.udacity.HarryPotter-Yue-Yang";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CDC27F023DF2A8200DDC02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HarryPotter_Yue Yang/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.udacity.HarryPotter-Yue-Yang";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6CDC27F223DF2A8200DDC02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HarryPotter_Yue YangTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.udacity.HarryPotter-Yue-YangTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HarryPotter_Yue Yang.app/HarryPotter_Yue Yang";
+			};
+			name = Debug;
+		};
+		6CDC27F323DF2A8200DDC02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HarryPotter_Yue YangTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.udacity.HarryPotter-Yue-YangTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HarryPotter_Yue Yang.app/HarryPotter_Yue Yang";
+			};
+			name = Release;
+		};
+		6CDC27F523DF2A8200DDC02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HarryPotter_Yue YangUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.udacity.HarryPotter-Yue-YangUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HarryPotter_Yue Yang";
+			};
+			name = Debug;
+		};
+		6CDC27F623DF2A8200DDC02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HarryPotter_Yue YangUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.udacity.HarryPotter-Yue-YangUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HarryPotter_Yue Yang";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CDC27C123DF2A7E00DDC02E /* Build configuration list for PBXProject "HarryPotter_Yue Yang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CDC27EC23DF2A8200DDC02E /* Debug */,
+				6CDC27ED23DF2A8200DDC02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CDC27EE23DF2A8200DDC02E /* Build configuration list for PBXNativeTarget "HarryPotter_Yue Yang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CDC27EF23DF2A8200DDC02E /* Debug */,
+				6CDC27F023DF2A8200DDC02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CDC27F123DF2A8200DDC02E /* Build configuration list for PBXNativeTarget "HarryPotter_Yue YangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CDC27F223DF2A8200DDC02E /* Debug */,
+				6CDC27F323DF2A8200DDC02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CDC27F423DF2A8200DDC02E /* Build configuration list for PBXNativeTarget "HarryPotter_Yue YangUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CDC27F523DF2A8200DDC02E /* Debug */,
+				6CDC27F623DF2A8200DDC02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6C46DA1223E9FCE300F14BA9 /* HarryPotterDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6C46DA1323E9FCE300F14BA9 /* HarryPotterDB.xcdatamodel */,
+			);
+			currentVersion = 6C46DA1323E9FCE300F14BA9 /* HarryPotterDB.xcdatamodel */;
+			path = HarryPotterDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6CDC27BE23DF2A7E00DDC02E /* Project object */;
+}
